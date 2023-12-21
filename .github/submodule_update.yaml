@@ -1,0 +1,12 @@
+name: Submodule updater
+on:
+  repositoy_dispatch:
+    types:
+      ['submodule_update']
+      
+jobs:
+  dispatch:
+    name: Submodule update
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello"
