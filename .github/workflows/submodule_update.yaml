@@ -1,6 +1,6 @@
 name: Submodule updater
 on:
-  repositoy_dispatch:
+  repository_dispatch:
     types:
       [submodule_update]
       
