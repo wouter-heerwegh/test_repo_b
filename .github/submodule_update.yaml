@@ -2,7 +2,7 @@ name: Submodule updater
 on:
   repositoy_dispatch:
     types:
-      ['submodule_update']
+      [submodule_update]
       
 jobs:
   dispatch:
